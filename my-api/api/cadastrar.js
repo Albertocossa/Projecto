@@ -1,4 +1,5 @@
 const mysql = require('mysql2');
+const cors = require('cors'); // Importando o cors
 
 // Configuração da conexão com o MySQL no AlwaysData
 const connection = mysql.createConnection({
